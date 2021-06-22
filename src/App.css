@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+/* App Header */
+.App-header {
+  background: #d5e7fa url("./assets/logo.png") no-repeat;
+  background-size: 180px;
+  background-position: left 60px bottom 20px;
+  font-family: "Roboto", sans-serif;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 5vmin);
+  color: #1d334a;
+}
+.App-header h1 {
+  text-align: center;
+  margin: 0;
+  color: #fff;
+}
+.App-header h5 {
+  text-align: center;
+  font-size: 50px;
+  margin: 0;
+}
+
+/* Nav */
+.nav {
+  text-align: center;
+}
+.nav ul {
+  list-style-type: none;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0px 30px;
+  overflow: hidden;
+  background-color: #e6a010;
+}
+.nav li {
+  float: left;
+}
+.nav li a {
+  display: inline-block;
+  position: relative;
+  color: #1d334a;
+  font-weight: 600;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.nav li a:hover {
+  background-color: #4f8ac9;
+  color: #fff;
+}
+
+/* Overview */
+.Overview {
+  font-family: "Roboto", sans-serif;
+  padding: 20px;
+}
+.Overview h1 {
+  font-family: "Roboto", sans-serif;
+  text-align: left;
+  padding-left: 50px;
+  margin: 0;
+}
+
+/* Charts */
+.Chart {
+  max-width: 800px;
+  margin-bottom: 20px;
+  border: 1px solid #e6a010;
+  border-radius: 5px;
+  margin: 50px;
+  justify-content: center;
+}
+.InputSelect {
+  padding: 15px;
+  background-color: #e6edf3;
+  border-radius: 0px 0px 5px 0px;
+  width: 35%;
+}
+.InputSelectLabel {
+  margin-right: 10px;
+}
+
+/* SelectStudents */
+.SelectStudents {
+  font-family: "Roboto", sans-serif;
+  padding: 15px;
+  background-color: #e6edf3;
+  border: 1px solid #e6a010;
+  border-radius: 5px;
+  margin: 50px;
+}
+.SelectStudents p {
+  margin: 0;
+  padding-bottom: 5px;
+}
+
+/* StudentsView */
+.StudentsView {
+  font-family: "Roboto", sans-serif;
+  padding: 15px;
+}
+.StudentsView h1 {
+  font-family: "Roboto", sans-serif;
+  text-align: left;
+  padding-left: 50px;
+  margin-top: 0;
+}
+.StudentsListBlock {
+  width: 400px;
+}
+.StudentsViewList ul {
+  list-style: inline-block;
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+.StudentsViewList li {
+  display: inline-block;
+  background-color: #e6a010;
+  width: 30%;
+  padding: 10px;
+  margin: 2px;
+  border: 1px solid #e6a010;
+  border-radius: 2px;
+}
+.StudentsViewList li:hover {
+  background-color: #fff;
+  border: 3px solid #e6a010;
+}
+.StudentsViewList li a {
+  display: block;
+  color: #1d334a;
+  text-decoration: none;
+}
+
+/* StudentView */
+.StudentView {
+  font-family: "Roboto", sans-serif;
+  padding: 15px;
+}
+.StudentView h1 {
+  font-family: "Roboto", sans-serif;
+  text-align: left;
+  padding-left: 50px;
+  margin-top: 0;
+}
+
+/* Graph */
+.Graph {
+  max-width: 800px;
+  margin-bottom: 20px;
+  border: 1px solid #e6a010;
+  border-radius: 5px;
+  margin: 50px;
+  justify-content: center;
+}
+
+/* Info */
+.ChartInfo {
+  padding: 15px;
+  background-color: #e6edf3;
+  border-radius: 0px 0px 5px 5px;
+}
+.ChartInfo p {
+  margin: 0;
+}
+.ChartInfo .fun::before {
+  content: "";
+  display: inline-block;
+  background-color: #084d8d;
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+}
+.ChartInfo .difficult::before {
+  content: "";
+  display: inline-block;
+  background-color: #940031;
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+}
+.ChartInfo .averageAllStudents::before {
+  content: "";
+  display: inline-block;
+  background-color: #084d8d;
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+}
+.ChartInfo .averageStudent::before {
+  content: "";
+  display: inline-block;
+  background-color: #e6a010;
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+}
